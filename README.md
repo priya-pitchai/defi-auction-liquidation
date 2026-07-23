@@ -58,10 +58,17 @@ Current Phase:
 
 ✅ state Diagram
 
-⬜ Solidity Development
+🚧 Solidity Development
 
 ⬜ Testing
 
 ⬜ Security Review
 
 ⬜ Deployment
+
+Modules:
+✅Price Oracle
+✅Treasury
+⬜Collateral Manager
+⬜Loan Manager
+⬜Auction Manager
