@@ -69,8 +69,13 @@ contract CollateralVault {
         emit CollateralDeposited(borrower, amount);
     }
 
+    function getCollateralBalance(address borrower) external view returns (uint256) {
+        return collateralBalances[borrower].amount;
+    }
+
     function liquidateCollateral(address borrower) external onlyLoanManager{
         // Logic to liquidate collateral if the borrower defaults or if the collateral value falls below a certain threshold
         //transferCollateral(borrower, collateralToLiquidate);
+        //call auction contract to auction the collateral
     }
 }

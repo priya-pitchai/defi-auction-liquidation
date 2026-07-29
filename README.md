@@ -69,6 +69,6 @@ Current Phase:
 Modules:
 ✅Price Oracle
 ✅Treasury
-⬜Collateral Manager
-⬜Loan Manager
+✅Collateral Manager
+✅Loan Manager
 ⬜Auction Manager
